@@ -1,10 +1,62 @@
+/*        */
+/* Colors */
+/*        */
+.bg-darkGreen{
+	background-color: #53A677;
+}
+.bg-lightGreen{
+	background-color: #A7F2C8;
+}
+.bg-pearl {
+	background-color: #CEC1D6;
+}
+.bg-pastelOrange {
+	background-color: #F2A488;
+}
+.bg-beige {
+	background-color: #EEE4C8;
+}
+.bg-transparent{
+	background-color: transparent;
+}
+.borderDarkGreen {
+	border: 1px solid #53A677;
+}
+
+/*         */
+/* Spacers */
+/*         */
+.marginTop20{
+	margin-top: 20px;
+}
+.marginBottom20{
+	margin-bottom: 20px;
+}
+.paddingSides20{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 /*            */
 /* Navigation */
 /*            */
-
 .transparentNavBar {
 	background-color: transparent;
 	border-color: transparent;
 	box-shadow: none;
 	background-image: none;
 }
+/*override bootstrap style: matches bg-beige*/
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #EEE4C8; 
+}
+/*override bootstrap style: matches bg-darkGreen*/
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #53A677; 
+	border: none;
+}
+/*override bootstrap style: matches bg-lightGreen*/
+.navbar-default .navbar-toggle:hover{
+	background-color: #A7F2C8; 
+}
+

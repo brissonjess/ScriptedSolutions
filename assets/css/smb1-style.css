@@ -38,11 +38,13 @@ body, header, footer {
 .marginLeft0 {
 	margin-left: 0px;
 }
+.paddingleft0 {
+	padding-left: 0;
+}
 .paddingSides20{
 	padding-left: 20px;
 	padding-right: 20px;
 }
-
 .paddingBottom30{
 	padding-bottom: 30px;
 }
@@ -51,15 +53,38 @@ body, header, footer {
 }
 
 
-/*            */
-/* Navigation */
-/*            */
+/*                    */
+/* Navigation / Links */
+/*                    */
 .transparentNavBar {
 	background-color: transparent;
 	border-color: transparent;
 	box-shadow: none;
 	background-image: none;
 }
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .mobileFriendlyLink {
+        font-size: 18px;
+    }
+    .mobileFriendlyLink > li{
+    	padding: 8px;
+    }
+    h5 {
+    	font-size: 20px;
+    }
+}
+/*             */
+/* Images */
+/*             */
+.socialImages > li > a > img{
+	margin-left: 0;
+	margin-right: 8px;
+}
+
+
 /*             */
 /* List styles */
 /*             */
@@ -67,3 +92,4 @@ body, header, footer {
 	list-style: none;
 	padding-left: 0px;
 }
+

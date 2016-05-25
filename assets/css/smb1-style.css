@@ -4,24 +4,36 @@
 .bg-darkGreen{
 	background-color: #53A677;
 }
+.borderDarkGreen {
+	border: 1px solid #53A677;
+}
+.colorDarkGreen {
+	color: #53A677;
+}
 .bg-lightGreen{
 	background-color: #A7F2C8;
+}
+.colorDarkGreenHover:hover{
+	color: #53A677;
 }
 .bg-pearl {
 	background-color: #CEC1D6;
 }
-.bg-pastelOrange {
+
+.bgPastelOrangeHover:hover {
 	background-color: #F2A488;
 }
+
 .bg-beige {
 	background-color: #EEE4C8;
 }
 .bg-transparent{
 	background-color: transparent;
 }
-.borderDarkGreen {
-	border: 1px solid #53A677;
+.colorBlack {
+	color: black;
 }
+
 
 /*         */
 /* Spacers */

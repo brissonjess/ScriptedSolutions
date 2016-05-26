@@ -38,6 +38,10 @@ body, header, footer {
 .marginLeft0 {
 	margin-left: 0px;
 }
+.marginSides20{
+	margin-left: 20px;
+	margin-right: 20px;
+}
 .paddingleft0 {
 	padding-left: 0;
 }

@@ -11,6 +11,8 @@ body {
   padding-top: 50px;
 }
 
+.container-fluid {padding: 0;}
+
 /* .container {width: 100%; display: flex; flex-wrap: wrap;} */
 
 /*.navbar {border: solid red;}*/

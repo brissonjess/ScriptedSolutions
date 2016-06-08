@@ -10,6 +10,12 @@
 body {
   padding-top: 50px;
 }
+h1{
+  font-family: 'Special Elite', cursive;
+}
+.droid-font{
+  font-family: 'Droid Sans', sans-serif;
+}
 
 /* .container {width: 100%; display: flex; flex-wrap: wrap;} */
 
@@ -27,25 +33,25 @@ body {
   background: url('../photos/skyline2BW.jpg');
 }
 
-/* .banner-title {
+.banner-title {
   border-radius: 25px;
-  background: #000;
-  color: #FFF;
-  opacity: .7;
-  background: #FFF;
   margin: auto;
-  width: 40%;
+  width: 100%;
   text-align: center;
-  opacity: 0.5;
-  margin-top: 150px;
   padding: 5px;
-} */
+  margin-top: 220px;
+  
+}
+.banner-title h1 {
+    color: #FFF;
+    font-size: 40px;
+}
 
-/* .banner-title:hover{
+/*.banner-title:hover{
   background: #FFF;
   color: #000;
   opacity: .5;
-} */
+}*/
 
 .maintext {
   /*text-align: center;*/

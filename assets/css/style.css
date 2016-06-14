@@ -15,8 +15,12 @@ body {
 h1{
   font-family: 'Special Elite', cursive;
 }
+
 .droid-font{
   font-family: 'Droid Sans', sans-serif;
+}
+.elite-font{
+  font-family: 'Special Elite', cursive;
 }
 .marginTop140{
   margin-top: 140px;
@@ -76,4 +80,22 @@ h1{
     padding-right: 60px;
     padding-left: 60px;
   }
+}
+.spacerImage {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(http://placehold.it/1200x650/cc0000/ffffff) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.page-break {
+    width: 50%;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
 }
